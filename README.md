@@ -13,7 +13,7 @@ GET
   curl --location 'http://127.0.0.1:8000/api/v1/get-top/'
   
 POST
-- http://127.0.0.1:8000/api/v1/post-deals/
+- http://localhost:8000/api/v1/post-deals/
   В тело запроса прикрепляем файл c ключом "deals"
   пример запроса:
   curl --location 'http://127.0.0.1:8000/api/v1/post-deals/' \
